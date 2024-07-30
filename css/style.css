@@ -1,0 +1,111 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f5f5f7;
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f5f5f7;
+}
+
+body.dark-mode .resume-header {
+  background-color: #2c2c2c;
+  color: #f5f5f7;
+}
+
+body.dark-mode .resume-section {
+  background-color: #2c2c2c;
+  color: #f5f5f7;
+}
+
+body.dark-mode .resume-section-title {
+  color: #f5f5f7;
+  border-bottom: 2px solid #007aff;
+}
+
+body.dark-mode .resume-header .contact-info i,
+body.dark-mode .resume-header .contact-info a {
+  color: #007aff;
+}
+
+body.dark-mode ul.list-unstyled li {
+  color: #f5f5f7;
+}
+
+ul.list-unstyled {
+  padding-left: 20px;
+}
+
+ul.list-unstyled li {
+  list-style-type: disc; /* Adding bullet points */
+  margin-bottom: 8px;
+}
+
+.resume-header {
+  padding: 40px;
+  text-align: center;
+  background: #ffffff;
+  color: #333;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.resume-header p {
+  margin: 5px 0 20px;
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.resume-header .contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+.resume-header .contact-info i {
+  color: #007aff; /* iOS Blue */
+}
+
+.resume-header .contact-info a {
+  color: #007aff; /* iOS Blue */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.resume-header .contact-info a:hover {
+  text-decoration: underline;
+}
+
+.resume-section {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section-title {
+  font-size: 1.75rem;
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid #007aff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.resume-section h3 {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 10px;
+}

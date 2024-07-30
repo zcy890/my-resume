@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- Header Section -->
+      <section id="Header">
+        <!-- Dark Mode Toggle Button -->
+        <button id="dark-mode-toggle" class="btn btn-light top-0 end-0 m-3">
+          <i class="bi bi-moon"></i> Toggle Dark Mode
+        </button>
+
+        <!-- Resume Header -->
+        <div class="resume-header">
+          <h1>Chris Yan</h1>
+          <p>Software Engineer</p>
+          <div class="contact-info">
+            <span
+              ><i class="bi bi-envelope"></i
+              ><a href="mailto:john.doe@example.com"> zcy890@gmail.com</a></span
+            >
+            <span><i class="bi bi-telephone"></i> (604) 441-9542</span>
+            <span><i class="bi bi-geo-alt"></i> Vancouver, BC</span>
+            <span
+              ><i class="bi bi-github"></i
+              ><a href="https://github.com/zcy890" target="_blank">
+                GitHub</a
+              ></span
+            >
+            <span
+              ><i class="bi bi-linkedin"></i
+              ><a href="https://www.linkedin.com/in/zya46" target="_blank">
+                LinkedIn</a
+              ></span
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="Experience">
+        <div class="resume-section">
+          <h2 class="resume-section-title">Experience</h2>
+          <div class="mb-4">
+            <h3>Software Engineer in Test (Intern)</h3>
+            <p>
+              <em><b>Calabrio Inc</b>, Vancouver, Canada, 09/2021 - 05/2022</em>
+              <br />
+              <em
+                >Tech Stack: Node.js, JavaScript/TypeScript, Java, Selenium,
+                Jenkins</em
+              >
+            </p>
+            <ul class="list-unstyled">
+              <li>
+                Worked as an Automation Developer by designing and implementing
+                scalable end-to-end, and integration tests in Node.js using
+                TypeScript, and enabled test suites to execute in parallel and
+                reduced runtime by over 40%.
+              </li>
+              <li>
+                Implemented Selenium tests using Java for React webpages that
+                consistently played as a crucial role in the CI/CD pipeline.
+              </li>
+              <li>
+                Designed and scripted pipelines in Jenkins and Azure to enable
+                parallel executions of multiple Postman collections, concurrent
+                instances of Selenium tests, while avoiding Race Conditions.
+              </li>
+              <li>
+                Designed Postman API collections to automate end-to-end core
+                feature testing and implemented test scripts using JavaScript
+                and SQL to retrieve tenant information from Postgres Database,
+                the collections later became crucial tools for developers to use
+                as test and verification stage to support their development.
+              </li>
+            </ul>
+          </div>
+          <div class="mb-4">
+            <h3>Software Engineer (Intern)</h3>
+            <p>
+              <em
+                ><b>HealthCare Systems Research & Analysis Inc</b>, Waterloo,
+                Canada, 05/2021 - 09/2021</em
+              >
+              <br />
+              <em
+                >Tech Stack: Python (OOP), Kivy, React Native, Git, Firebase,
+                NoSQL</em
+              >
+            </p>
+            <ul class="list-unstyled">
+              <li>
+                Worked closely with the Development team to build and update the
+                backend of the existing company app with Python and Realtime
+                Database for Android and IOS, participated app architecture
+                designs and conducted code reviews with fast-paced development
+                cycles under high-stress environment.
+              </li>
+              <li>
+                Designed and implemented intuitive and responsive app UI using
+                React Native and CSS3, and used React concepts like JSX,
+                components, state, and props.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="Projects">
+        <div class="resume-section">
+          <h2 class="resume-section-title">Projects</h2>
+          <div class="mb-4">
+            <a
+              href="https://github.com/zcy890/MazeGame-CatMouseCheese"
+              target="_blank"
+            >
+              <h3>Cat and Mouse Game Application</h3></a
+            >
+
+            <ul class="list-unstyled">
+              <li>
+                Created a maze exploration game using Java, where the player
+                controls a mouse in search of some pieces of cheese while
+                avoiding the cats to win the game.
+              </li>
+              <li>
+                Generated the maze using the Depth First Search algorithm and
+                added cycles (loops) to the maze. Otherwise, it will be very
+                hard for the player to navigate the maze while still avoiding
+                cats.
+              </li>
+              <li>
+                Utilized the core concepts of Object- oriented programming:
+                Abstraction, encapsulation, inheritance, and polymorphism.
+              </li>
+              <li>
+                Designed and developed a Spring Boot server and implemented the
+                necessary REST API to enable interaction between the web client
+                and the model, and carefully tested the back-end API with
+                Postman.
+              </li>
+            </ul>
+          </div>
+          <div class="mb-4">
+            <h3>E-commerce Platform</h3>
+            <ul class="list-unstyled">
+              <li>
+                Built an e-commerce platform with a focus on user experience and
+                security.
+              </li>
+              <li>Used technologies such as Node.js, React.js, and MySQL.</li>
+              <li>
+                Integrated payment gateways and implemented product search and
+                recommendation features.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="Education">
+        <div class="resume-section">
+          <h2 class="resume-section-title">Education</h2>
+          <div class="mb-4">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p><em>Simon Fraser University - 2022</em></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="Skills">
+        <div class="resume-section">
+          <h2 class="resume-section-title">Skills</h2>
+          <ul class="list-unstyled">
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Angular, Vue.js</li>
+            <li>Node.js, Express, MongoDB</li>
+            <li>Python, Java, C#</li>
+            <li>Git, Docker, Jenkins</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
