@@ -71,6 +71,8 @@ ul.list-unstyled li {
   align-items: center;
   gap: 20px;
   font-size: 1.1rem;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  text-align: center; /* Center contact info on small screens */
 }
 
 .resume-header .contact-info i {
